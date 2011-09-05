@@ -5,7 +5,9 @@ Animate your AJAX load, jQuery UI style, with Rails 3 UJS
 ## Use
 
 Defaults to filling in the element that sends the ajax request,
-which you probably don't want so change that.
+which you probably don't want so change that. Assumes that you
+will be filling in the display element with a response thus
+wiping out the loading animation.
 
 Examples:
 
