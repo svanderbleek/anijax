@@ -18,3 +18,10 @@ Examples:
       displayElement: $('#some-element-to-fill-in')  
     })
     $('#form-with-remote-true').anijax()
+    $('#other-form-with-remote-true').anijax({ 
+      displayElement: $('other-element-to-fill-in) 
+    })
+
+Note in the last example how two different ajax senders
+can have different display elements. The same holds for classes
+and images.
